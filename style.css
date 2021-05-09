@@ -1,0 +1,203 @@
+/** @format */
+/* apply styles to <header> */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+}
+header {
+  padding: 20px 35px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+}
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+header a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+header nav {
+  margin: 1px 0;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+section {
+  padding: 60px;
+}
+.hero {
+  align-items: flex-start;
+}
+
+body {
+  background-color: midnightblue;
+  padding: 20px;
+  font-family: Arial;
+}
+#contact-me {
+  background-color: navy;
+  color: whitesmoke;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+.intro {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.intro p {
+  line-height: 1.7;
+  color: whitesmoke;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.gallery {
+  text-align: center;
+  background: silver;
+}
+
+.section-title {
+  font-size: 45px;
+  color: whitesmoke;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+}
+
+.primary-border {
+  border-color: black;
+}
+
+.secondary-border {
+  border-color: black;
+}
+
+.primary-border {
+  border-color: black;
+}
+
+.secondary-border {
+  border-color: black;
+}
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: navy;
+  padding: 25px;
+}
+
+footer {
+  background: black;
+  width: 100%;
+  padding: 40px 35px;
+  justify-content: space-between;
+}
+footer h2 {
+  display: inline;
+  color: whitesmoke;
+  font-size: 20px;
+  margin: 0;
+}
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+footer a {
+  color: whitesmoke;
+}
+header h1 {
+  width: 100%;
+  text-align: center;
+}
+
+header nav ul {
+  margin-top: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+header nav ul li a {
+  font-size: 20px;
+}
+
+footer h2,
+footer div {
+  text-align: center;
+  width: 100%;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    width: 80%;
+  }
+}
